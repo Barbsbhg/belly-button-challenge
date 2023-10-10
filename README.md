@@ -23,7 +23,38 @@ Complete the following steps:
 
       ![Bubble Chart](Images/bubble_chart.jpg)
 
-       
+  4. Display the sample metadata, i.e., an individual's demographic information.
+  5. Display each key-value pair from the metadata JSON object somewhere on the page.
+
+     ![Demographic Info](Images/demographic%20info.jpeg)
+
+  6. Update all the plots when a new sample is selected. Additionally, you are welcome to create any layout that you would like for your dashboard. An example dashboard is shown as follows:
+
+  ![Dashboard](Images/dashboard.jpeg)
+
+  7. Deploy your app to a free static page hosting service, such as GitHub Pages. Submit the links to your deployment and your GitHub repo. Ensure that your repository has regular commits and a thorough README.md file
+
+
+## Advanced Challenge Assignment
+
+The following task is advanced and therefore optional.
+  * Adapt the Gauge Chart from https://plot.ly/javascript/gauge-charts/Links to plot the weekly washing frequency of the individual.
+  * You will need to modify the example gauge code to account for values ranging from 0 through 9.
+  * Update the chart whenever a new sample is selected.
+
+
+ ![Gauge](Images/gauge.jpg)
+
+## Hints
+  * Use <code>console.log</code> inside of your JavaScript code to see what your data looks like at each step.
+  * Refer to the [Plotly.js documentationLinks](https://plotly.com/javascript/) when building the plots.
+
+
+
+
+
+
+
 
 
 
